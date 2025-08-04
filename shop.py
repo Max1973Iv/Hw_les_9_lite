@@ -9,7 +9,7 @@ tshirt = Clothing(name="Футболка", price=200, size="M", material="Хло
 shampoo = HouseHoldChemicals(name="Шампунь", price=15, volume=500)
 #
 # Создаем пользователей
-customer = Customer(username="Maxim", email="mmm@blgroup.by", address="Минск, ул. Ленина, 1")
+customer = Customer(username="Максим", email="mmm@blgroup.by", address="Минск, ул. Ленина, 1")
 admin = Admin(username="админ_1", email="root@v.ru", admin_level=5)
 #
 # Создаем корзину покупок
