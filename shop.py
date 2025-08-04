@@ -3,7 +3,7 @@ from classes.users import Customer, Admin
 from classes.shoping_carts import ShoppingCart
 import sys
 sys.stdout.reconfigure(encoding='utf-8')  # Настройка кодировки вывода для корректного отображения русских символов
-# Создаем продукты
+# Создаем товары
 laptop = Electronics(name="Ноутбук", price=1200, brand="Dell", warranty_period=2)
 tshirt = Clothing(name="Футболка", price=200, size="M", material="Хлопок")
 shampoo = HouseHoldChemicals(name="Шампунь", price=15, volume=500)
