@@ -16,10 +16,10 @@ class ShoppingCart:
         self.items.append({"Продукт": product, "количество": quantity})
 # информация о времени и дате создания корзины
     def creation_time(self):
-        """ Возвращает дату и время создания корзины.
+        """ Возвращает дату и время создания заказа.
         """
         # Используем текущую дату и время для создания корзины  
-        self.creation_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 #
     def remove_item(self, product_name):
         """
